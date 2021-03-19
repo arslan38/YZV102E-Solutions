@@ -13,6 +13,7 @@ This repository contains our solutions to the assignments of the [YZV102E](https
 ### Environment
 ```
 Python 3.8.8
+Windows 10 Home
 ```
 
 
