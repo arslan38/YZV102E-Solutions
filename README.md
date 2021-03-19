@@ -10,7 +10,7 @@ This repository contains our solutions to the assignments of the [YZV102E](https
 ### Homeworks:
 - [H1](): YZV102E-Homework-01. (_It will be uploaded on March 25th._)
 
-### Environment
+### Environment:
 ```
 Python 3.8.8
 Windows 10 Home
