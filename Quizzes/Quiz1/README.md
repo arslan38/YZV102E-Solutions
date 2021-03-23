@@ -1,7 +1,8 @@
 ## Question
 
+ ----
 ### You are going to implement a calculator able to do addition, subtraction, multiplication, integer division, take pozitive power and take factorial. It is not allowed to use built-in functions while finding power or factorial! Recursive functions for calculating the factorial and power is not allowed! It is recured to find power and factorial with for loops.
-
+ ----
 ### Input Format
 
 First the operation then the operands.
