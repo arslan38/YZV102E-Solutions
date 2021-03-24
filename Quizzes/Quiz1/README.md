@@ -27,6 +27,8 @@ Then operands which are integer!.
 
 ### Output Format
 
+- Print the three lines as explained above.
+
 Sample Input 0
 ```
 a
