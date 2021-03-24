@@ -141,7 +141,8 @@ ITU 1773
 ## Report
 
 Report Template
-- https://ninova.itu.edu.tr/Sinif/24421.67325/Odev/107577?g3472996
+- https://ninova.itu.edu.tr/Sinif/24421.67325/Odev/107577?g3472996 (.pdf)
+- https://ninova.itu.edu.tr/Sinif/24421.67325/Odev/107577?g3478922 (.tex)
 
 Learn LateX
 - https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
