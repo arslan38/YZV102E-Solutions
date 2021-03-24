@@ -8,7 +8,7 @@
 ## Question 1
 
 
-### You will be given a list, assume the list will not be empty, consists of floats. You are required to compute some statistical values according to given definitions and formulas.
+#### You will be given a list, assume the list will not be empty, consists of floats. You are required to compute some statistical values according to given definitions and formulas.
 
 - Length: Number of elements in the list: N
 
@@ -55,7 +55,7 @@ Sample Output 0
 
 ## Question 2
 
-### Binary numbers are used in computer and communications systems. So the conversion is important. In this problem we will focus to this conversions.
+#### Binary numbers are used in computer and communications systems. So the conversion is important. In this problem we will focus to this conversions.
 
 ### Note: 
 
