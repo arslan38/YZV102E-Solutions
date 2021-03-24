@@ -2,6 +2,7 @@
 - [Question 1](#question-1)
 - [Question 2](#question-2)
 - [Question 3](#question-3)
+- [Report](#report)
 
  ----
 
@@ -134,6 +135,16 @@ Sample Output 0
 {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, 'a': 10, 'b': 11, 'c': 12, 'd': 13, 'e': 14, 'f': 15}
 ITU 1773
 ```
+
 ----
 
+## Report
 
+Report Template
+- https://ninova.itu.edu.tr/Sinif/24421.67325/Odev/107577?g3472996 (.pdf)
+- https://ninova.itu.edu.tr/Sinif/24421.67325/Odev/107577?g3478922 (.tex)
+
+Learn LateX
+- https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+
+ ----
