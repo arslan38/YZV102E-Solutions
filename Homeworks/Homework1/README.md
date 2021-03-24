@@ -40,6 +40,11 @@
 - 0 < N <= 50
 
 ### Output Format
+Space Seperated Statistical Values with Precision 5
+
+- {Length} {Minimum with precision 5} {Minimum Index} {Maximum with precision 5} {Maximum Index} {Sum with precision 5} {Mean with precision 5} {Variance with precision 5}
+
+- 4 2.00000 1 53.00000 2 70.34000 17.58500 433.69268
 
 Sample Input 0
 ```
@@ -80,6 +85,8 @@ Sample Output 0
 - number >= 0
 
 ### Output Format
+
+- Result
 
 Sample Input 0
 ```
