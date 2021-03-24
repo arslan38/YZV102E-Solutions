@@ -7,23 +7,23 @@
 
 First the operation then the operands.
 
-'a' or 'A' means addition
+- 'a' or 'A' means addition
 
-'s' or 'S' means subtraction
+- 's' or 'S' means subtraction
 
-'m' or 'M' means multiplication
+- 'm' or 'M' means multiplication
 
-'d' or 'D' means integer division
+- 'd' or 'D' means integer division
 
-'p' or 'P' means power
+- 'p' or 'P' means power
 
-'f' or 'F' means factorial
+- 'f' or 'F' means factorial
 
 Then operands which are integer!.
 
 ### Constraints
 
-There will be no 0 division. Everything will be proper. There will not be any negative power so the result would be integer no floating number.
+- There will be no 0 division. Everything will be proper. There will not be any negative power so the result would be integer no floating number.
 
 ### Output Format
 
