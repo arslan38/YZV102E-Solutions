@@ -1,3 +1,10 @@
+# Table of Contents
+- [Question 1](#question-1)
+- [Question 2](#question-2)
+- [Question 3](#question-3)
+
+<br/><br/>
+
 ## Question 1
 
  ----
@@ -15,7 +22,6 @@
 
 - Variance: Mean of the list: 
  
- ----
 ### Note:
 
 - Do not forget to count from 0 for index number.
@@ -43,3 +49,45 @@ Sample Output 0
 ```
 4 2.00000 1 53.00000 2 70.34000 17.58500 433.69268
 ```
+----
+
+<br/><br/>
+
+## Question 2
+
+ ----
+### Binary numbers are used in computer and communications systems. So the conversion is important. In this problem we will focus to this conversions.
+
+### Note: 
+
+- You are not allowed to use built-in functions for conversions!
+
+### Input Format
+
+- mode number
+
+- 0 10
+
+- 1 1010
+
+- mode = 0 ->  Decimal to Binary Conversion
+
+- mode = 1 ->  Binary to Decimal Conversion
+
+### Constraints
+
+- mode ∈ [0,1] 
+
+- number >= 0
+
+### Output Format
+
+Sample Input 0
+```
+0 10
+```
+Sample Output 0
+```
+1010
+```
+----
