@@ -40,3 +40,5 @@ Sample Output 0
 5
 ```
  ----
+
+HackerRank: https://www.hackerrank.com/contests/797a76313032652d6c61622d7175697a3031/challenges
