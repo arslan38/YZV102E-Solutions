@@ -10,7 +10,7 @@ This repository contains our solutions to the assignments of the [YZV102E](https
 
 ### Homeworks:
 - [H1](https://github.com/arslan38/YZV102E-Solutions/tree/main/Homeworks/Homework1): YZV102E-Homework-01. (_Done_)
-- [H2](https://github.com/arslan38/YZV102E-Solutions/tree/main/Homeworks/Homework2): YZV102E-Homework-02. (Will be uploaded on  08 April)
+- [H2](https://github.com/arslan38/YZV102E-Solutions/tree/main/Homeworks/Homework2): YZV102E-Homework-02. (_Done_)
 
 ### Environment:
 ```
