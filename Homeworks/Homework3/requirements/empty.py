@@ -7,18 +7,15 @@ def read_grades(filename):
     Return:
         result: Tuple of names, mt1 scores, mt2 scores, final scores in dictionary type
     """
-    import csv
-
+    #  /$$$$$$$$ /$$$$$$ /$$       /$$
+    # | $$_____/|_  $$_/| $$      | $$
+    # | $$        | $$  | $$      | $$
+    # | $$$$$     | $$  | $$      | $$
+    # | $$__/     | $$  | $$      | $$
+    # | $$        | $$  | $$      | $$
+    # | $$       /$$$$$$| $$$$$$$$| $$$$$$$$
+    # |__/      |______/|________/|________/
     name, mt1, mt2, final = {},{},{},{}
-    
-    with open('grades.csv',newline='') as csv_file:
-        spamreader = csv.reader(csv_file,delimiter=',')
-        for row in spamreader:
-          student_number = row[0]
-          name[student_number]=row[1]
-          if row[2]=='midterm1':mt1[student_number]=int(row[3])
-          elif row[2]=='midterm2':mt2[student_number]=int(row[3])
-          elif row[2]=='final':final[student_number]=int(row[3])
 
     return name, mt1, mt2, final
 
@@ -34,11 +31,16 @@ def convert(names, midterm1, midterm2, final):
     Return:
         lst: list of tuples. Tuples includes number, name, midterm1, midterm2, final scores
     """
+    #  /$$$$$$$$ /$$$$$$ /$$       /$$
+    # | $$_____/|_  $$_/| $$      | $$
+    # | $$        | $$  | $$      | $$
+    # | $$$$$     | $$  | $$      | $$
+    # | $$__/     | $$  | $$      | $$
+    # | $$        | $$  | $$      | $$
+    # | $$       /$$$$$$| $$$$$$$$| $$$$$$$$
+    # |__/      |______/|________/|________/
     lst = []
 
-    for i in names.keys():
-        lst.append((i,names[i],midterm1[i],midterm2[i],final[i]))
- 
     return lst
 
 
@@ -51,16 +53,15 @@ def calculate_exam_average(lst, exam):
     Return:
         average: float that is the average of an exam specified with exam param.
     """
-
+    #  /$$$$$$$$ /$$$$$$ /$$       /$$
+    # | $$_____/|_  $$_/| $$      | $$
+    # | $$        | $$  | $$      | $$
+    # | $$$$$     | $$  | $$      | $$
+    # | $$__/     | $$  | $$      | $$
+    # | $$        | $$  | $$      | $$
+    # | $$       /$$$$$$| $$$$$$$$| $$$$$$$$
+    # |__/      |______/|________/|________/
     average = 0.0
-
-    for element in lst:
-        number, name, mt1, mt2, final = element
-        if exam=='midterm1': average+=mt1
-        elif exam=='midterm2': average+=mt2
-        elif exam=='final': average+=final
-
-    average /= len(lst)
 
     return average
 
@@ -73,14 +74,15 @@ def find_passing_students(lst):
     Return:
         student_names: list of stringss that stores the passing students' names.
     """
-    
+    #  /$$$$$$$$ /$$$$$$ /$$       /$$
+    # | $$_____/|_  $$_/| $$      | $$
+    # | $$        | $$  | $$      | $$
+    # | $$$$$     | $$  | $$      | $$
+    # | $$__/     | $$  | $$      | $$
+    # | $$        | $$  | $$      | $$
+    # | $$       /$$$$$$| $$$$$$$$| $$$$$$$$
+    # |__/      |______/|________/|________/
     student_names =[]
-
-    for element in lst:
-        number, name, mt1, mt2, final = element
-        cumulative_grade = (0.3)*mt1 + (0.3)*mt2 + (0.4)*final
-        if cumulative_grade>60:
-            student_names.append(name)
 
     return student_names
 
@@ -95,25 +97,16 @@ def manipulate(filename, lst):
     Return:
         result: Tuple of names, mt1 scores, mt2 scores, final scores in dictionary type
     """
+    #  /$$$$$$$$ /$$$$$$ /$$       /$$
+    # | $$_____/|_  $$_/| $$      | $$
+    # | $$        | $$  | $$      | $$
+    # | $$$$$     | $$  | $$      | $$
+    # | $$__/     | $$  | $$      | $$
+    # | $$        | $$  | $$      | $$
+    # | $$       /$$$$$$| $$$$$$$$| $$$$$$$$
+    # |__/      |______/|________/|________/
     result = []
 
-    import csv
-
-    for i in range(len(lst)):
-        number, name, mt1, mt2, final = lst[i]
-        with open(filename,newline='') as csv_file:
-            spamreader = csv.reader(csv_file,delimiter=',')
-            for row in spamreader:
-                student_number,exam,grade = row[0],row[1],int(row[2])
-                if student_number==number:
-                    if exam=='midterm1': mt1=grade
-                    elif exam=='midterm2': mt2=grade
-                    elif exam=='final': final=grade
-
-            
-        result.append((number, name, mt1, mt2, final))
-
-                
     return result
     
 ################################################################ 
