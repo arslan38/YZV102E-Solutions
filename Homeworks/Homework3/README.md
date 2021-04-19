@@ -23,17 +23,16 @@ the function you will create a list of tuples. The tuple should be structured li
 (number, name, mt1, mt2, f inal). In each list item will be a tuple and in the each
 tuple you will store a student’s information and grades.
 
-- _calculate exam average_ : As shown in Code Snippet 3, the function takes two
+- _calculate_exam_average_ : As shown in Code Snippet 3, the function takes two
 inputs; first one is a list created in convert function and the second one is a string
 that can be ”midterm1”, ”midterm2”or”f inal”. In this function you will calculate
 the average grade of the exam specified in the second parameter.
 
-- f ind passing students. As shown in Code Snippet 4, the function takes a list
+- find_passing_students : As shown in Code Snippet 4, the function takes a list
 created in convert function. You will create a list of students who can pass the
 course. Cumulative grade is calculated like in Equation 0.1. If cumulative grade >
 60 student can pass otherwise student will fail. You will return the student names
-who can pass the lecture.
- - cumulative grade = (0.3) ∗ mt1 + (0.3) ∗ mt2 + (0.4) ∗ final
+who can pass the lecture. [cumulative grade = (0.3) ∗ mt1 + (0.3) ∗ mt2 + (0.4) ∗ final]
 
 - _manipulate_ : As shown in Code Snippet 5, the function takes a string that contains
 a csv file name and a list created in convert function. In this function you will open
