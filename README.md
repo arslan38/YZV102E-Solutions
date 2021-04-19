@@ -1,5 +1,6 @@
 # ITU YZV102E:Int.toPrg.forDataSci.(Python)
 
+#### Important Note: Other quizzes and homeworks will be uploaded at end of the semester.
 
 This repository contains our solutions to the assignments of the [YZV102E](https://www.sis.itu.edu.tr/TR/ogrenci/lisans/ders-bilgileri/ders-bilgileri.php?subj=YZV&numb=102E) course offered by Istanbul Technical University (Spring 2021).
 
